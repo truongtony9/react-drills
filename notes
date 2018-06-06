@@ -1,0 +1,76 @@
+            APP 1
+//--------------------------------------------//
+- constructor
+- super
+- this.state in the constructor
+    - property message: ""
+- before the render make a handleChange
+    - setState
+-make an input
+    -make the onChange
+    -make the type afterwards
+-p tag of this.state.message
+//--------------------------------------------//
+
+        APP 2
+//--------------------------------------------//
+- constructor
+- super
+- this.state in the constructor
+    - obj property of food: with an array of those foods
+-create a let foodsDisplay 
+    - call the food obj & use map method (element, index)
+-return
+    - h2 tag for key JS index, inside h2 tag is the JS element, closing h2 tag
+-2nd return
+    -the JS variable
+//--------------------------------------------//
+
+        APP 3
+//--------------------------------------------//
+- constructor
+- super
+- this.state object
+    -property pf filterStr key and empty "" value
+    -property of food key and an array of the food values
+-before render make a handleChange (filter)
+    -this.setState ({filterStr:filter})
+- create the let foodDisplay
+    -filter
+    - return includes
+    -map -return h2 key, element
+- return 
+    - input onChange and the type 
+    - JS variable
+//--------------------------------------------//
+
+        APP 4
+//--------------------------------------------//
+- Create Login component
+- constructor
+- super
+- this.state object with empty username and password properties 
+- make handleUsernameChange
+    -setState
+- make handlePasswordChange
+    -setState
+- make handleLogin
+    -alert username and password
+- bind Login
+- make render
+    - make return
+        - make div
+            - make text input for handleUsernameChange and handlePasswordChange
+            - make button onClick for handleLogin
+- import Login into App.JS
+    - put login close bracket into div
+//--------------------------------------------//
+
+        APP 5
+//--------------------------------------------//
+- create image component
+    - function Image (props)
+- return - div - img src 
+-import Image
+-return - div - image link
+//--------------------------------------------//
